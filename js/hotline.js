@@ -244,4 +244,105 @@ document.getElementById("clear").addEventListener('click', function () {
     }
 });
 
+// copy button
+//for card1
+document.getElementById('copyNumb1').addEventListener('click' , function(){
+    const text = document.getElementById("phone1").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
 
+});
+
+//for card2
+document.getElementById('copyNumb2').addEventListener('click' , function(){
+    const text = document.getElementById("phone2").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+//for card3
+document.getElementById('copyNumb3').addEventListener('click' , function(){
+    const text = document.getElementById("phone3").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+//for card4
+document.getElementById('copyNumb4').addEventListener('click' , function(){
+    const text = document.getElementById("phone4").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+//for card5
+document.getElementById('copyNumb5').addEventListener('click' , function(){
+    const text = document.getElementById("phone5").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
+
+//for card6
+document.getElementById('copyNumb6').addEventListener('click' , function(){
+    const text = document.getElementById("phone6").innerText;
+   
+    navigator.clipboard.writeText(text).then(() => {
+        alert(`Number ${text} copied to clipboard!`);
+        const copy_cnt = document.getElementById('copyCount');
+        let cnt = parseInt(copy_cnt.innerText);
+        cnt = cnt + 1;
+        copy_cnt.innerText = cnt;
+    })
+    .catch(err => {
+      console.error('Failed to copy text: ', err);
+    });
+
+});
