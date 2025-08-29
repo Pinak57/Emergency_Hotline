@@ -3,8 +3,11 @@
 
 
 ans: --> getElementById :  Finds one specific element by its ID
+
     --> getElementsByClassName : Finds multiple elements with the same class name
+    
     --> querySelector : Finds the first match using CSS-style selectors.
+
     --> querySelectorAll: Finds all matches using CSS-style selectors
 
 
@@ -12,6 +15,7 @@ ans: --> getElementById :  Finds one specific element by its ID
 
 
 ans: --> Use document.createElement() to make a new HTML element.
+
     --> Use appendChild() to place it somewhere on the page
 
 
@@ -29,6 +33,7 @@ Ans: --> IT is a technique where you attach a single event listener to a parent 
 
 
 Ans: --> when we use preventDefault() then the default work is stoped of a browser.
+
 and --> when we use stopPropagation() then the event do not arrive to parent element but only arrived where we clicked. 
 
 
