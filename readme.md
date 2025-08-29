@@ -26,6 +26,8 @@ Ans:we know that , --> Event Bubbling:  In JavaScript where an event starts at t
 Ans: --> IT is a technique where you attach a single event listener to a parent element, and let it handle events for its child elements using event.target.
 
 5. What is the difference between **preventDefault() and stopPropagation()** methods?
+
+
 Ans: --> when we use preventDefault() then the default work is stoped of a browser.
 and --> when we use stopPropagation() then the event do not arrive to parent element but only arrived where we clicked. 
 
